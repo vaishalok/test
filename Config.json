@@ -1,0 +1,15 @@
+{
+  "latestVersion": "1.0",
+	"minimumVersion": "1.0",
+	"appUpgradeURL": "http://www.google.com/",
+	"curatedContentURL": "http://sazwqa.github.com/featured_content.json",
+	"facebookApplicationId": "396010973785892",
+	"foodNetworkCoreData" : [
+		{
+			"minimumVersion" : "0.0",
+			"maximumVersion" : "1.0",
+			"dataVersion": "1.0",
+			"url":"http://sazwqa.github.com/FNOTRAndroid.sqlite.zip"
+		}
+	]
+}
