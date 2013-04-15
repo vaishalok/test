@@ -7,8 +7,8 @@
 	"foodNetworkCoreData" : [
 		{
 			"minimumVersion" : "0.0",
-			"maximumVersion" : "2.0",
-			"dataVersion": "2.0",
+			"maximumVersion" : "4.0",
+			"dataVersion": "4.0",
 			"url":"https://raw.github.com/vaishalok/test/master/FNOTRAndroid.sqlite.zip"
 		}
 	]
