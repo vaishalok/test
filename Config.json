@@ -2,7 +2,7 @@
   "latestVersion": "1.0",
 	"minimumVersion": "1.0",
 	"appUpgradeURL": "http://www.google.com/",
-	"curatedContentURL": "https://raw.github.com/vaishalok/test/master/CuratedContent.json",
+	"curatedContentURL": "http://sazwqa.github.io/featured_content.json",
 	"facebookApplicationId": "396010973785892",
 	"foodNetworkCoreData" : [
 		{
