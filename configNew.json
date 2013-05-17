@@ -1,0 +1,59 @@
+{
+  "latestVersion": "1.2",
+  "androidAppVersion": "1.0",
+  "androidDataVersion": "1",
+  "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v51.zip",
+  "minimumVersion": "1.0",
+  "appUpgradeURL": "http://itunes.apple.com/us/app/food-network-on-road-official/id550486324?ls=1&mt=8",
+  "facebookApplicationId": "396010973785892",
+  "foodNetworkCoreData": {
+    "minimumVersion": "0.6",
+    "maximumVersion": "1.9",
+    "dataVersion": "1.0_51",
+    "url": "http://s3.amazonaws.com/OnTheRoad/fnotr_v51.zip"
+  },
+  "services": {
+    "curated_content": {
+      "url": "http://s3.amazonaws.com/OnTheRoad/staging/stagingContent.{ext}",
+      "method": "get",
+      "parameter": [
+      ],
+      "optional_parameter": [
+      ]
+    },
+    "search": {
+      "url": "http://beta-api.scrippsnetworks.com/v2.3/otr/search.{ext}",
+      "method": "get",
+      "parameter": [
+      ],
+      "optional_parameter": [
+        "offset",
+        "talent",
+        "city",
+        "show",
+        "cuisine",
+        "long",
+        "lat",
+        "radius",
+        "results"
+      ]
+    },
+    "reviews": {
+      "url": "http://beta-api.scrippsnetworks.com/v2.3/otr/reviews.{ext}",
+      "method": "get",
+      "parameter": [
+        "id"
+      ],
+      "optional_parameter": [
+        "page",
+        "page_size"
+      ]
+    }
+  },
+  "config_parameters": {
+    "app": "otr",
+    "device": "ios",
+    "env": "stage",
+    "version": "1.1"
+  }
+}
