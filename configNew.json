@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.2",
-  "androidAppVersion": "2.0",
+  "androidAppVersion": "1.0",
   "androidDataVersion": "1",
   "androidDataURL": "https://github.com/vaishalok/test/blob/master/FNOTRAndroid.sqliteNew.zip?raw=true",
   "minimumVersion": "1.0",
