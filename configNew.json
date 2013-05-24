@@ -2,19 +2,19 @@
   "latestVersion": "1.2",
   "androidAppVersion": "1.0",
   "androidDataVersion": "2",
-  "androidDataURL": "https://github.com/vaishalok/test/blob/master/FNOTRAndroid.sqliteNew.zip?raw=true",
+  "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v52.zip",
   "minimumVersion": "1.0",
   "appUpgradeURL": "http://itunes.apple.com/us/app/food-network-on-road-official/id550486324?ls=1&mt=8",
   "facebookApplicationId": "396010973785892",
   "foodNetworkCoreData": {
     "minimumVersion": "0.6",
     "maximumVersion": "1.9",
-    "dataVersion": "1.0_51",
-    "url": "http://s3.amazonaws.com/OnTheRoad/fnotr_v51.zip"
+    "dataVersion": "1.0_52",
+    "url": "http://s3.amazonaws.com/OnTheRoad/fnotr_v52.zip"
   },
   "services": {
     "curated_content": {
-      "url": "https://raw.github.com/vaishalok/test/master/CuratedContentNew.{ext}",
+      "url": "http://s3.amazonaws.com/OnTheRoad/staging/stagingContent.{ext}",
       "method": "get",
       "parameter": [
       ],
