@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.2",
-  "androidAppVersion": "1.0",
+  "androidAppVersion": "2.0",
   "androidDataVersion": "1",
   "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v52.zip",
   "minimumVersion": "1.0",
