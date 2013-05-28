@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.2",
-  "androidAppVersion": "2.0",
-  "androidDataVersion": "2",
+  "androidAppVersion": "1.0",
+  "androidDataVersion": "1",
   "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v52.zip",
   "minimumVersion": "1.0",
   "appUpgradeURL": "http://itunes.apple.com/us/app/food-network-on-road-official/id550486324?ls=1&mt=8",
@@ -14,7 +14,7 @@
   },
   "services": {
     "curated_content": {
-      "url": "http://s3.amazonaws.com/OnTheRoad/staging/stagingContent.{ext}",
+      "url": "https://raw.github.com/vaishalok/test/master/CuratedContentNew.{ext}",
       "method": "get",
       "parameter": [
       ],
