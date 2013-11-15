@@ -1,0 +1,12 @@
+*.class
+bin/
+bin/*.ap?
+bin/*.swp
+bin/classes.dex
+.project
+.classpath
+.DS_Store
+gen/
+libsrc/
+local.properties
+res/values/com_crashlytics_export_strings.xml

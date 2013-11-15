@@ -1,20 +1,20 @@
 {
-  "latestVersion": "1.2",
-  "androidAppVersion": "2.0",
-  "androidDataVersion": "3",
-  "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v52.zip",
-  "minimumVersion": "1.0",
+  "latestVersion": "1.5",
+  "androidAppVersion": "1.1",
+  "androidDataVersion": "29",
+  "androidDataURL": "http://s3.amazonaws.com/OnTheRoad/fnotr_android_v101.zip",
+  "minimumVersion": "1.4",
   "appUpgradeURL": "http://itunes.apple.com/us/app/food-network-on-road-official/id550486324?ls=1&mt=8",
   "facebookApplicationId": "396010973785892",
   "foodNetworkCoreData": {
-    "minimumVersion": "0.6",
+    "minimumVersion": "1.4",
     "maximumVersion": "1.9",
-    "dataVersion": "1.0_52",
-    "url": "http://s3.amazonaws.com/OnTheRoad/fnotr_v52.zip"
+    "dataVersion": "101",
+    "url": "http://s3.amazonaws.com/OnTheRoad/fnotr_v101.zip"
   },
   "services": {
     "curated_content": {
-      "url": "https://raw.github.com/vaishalok/test/master/CuratedContentNew.{ext}",
+      "url": "http://s3.amazonaws.com/OnTheRoad/staging/stagingContent.{ext}",
       "method": "get",
       "parameter": [
       ],
@@ -39,7 +39,7 @@
       ]
     },
     "reviews": {
-      "url": "http://beta-api.scrippsnetworks.com/v2.3/otr/reviews.{ext}",
+      "url": "http://secure-api.scrippsnetworks.com/v2.3/otr/reviews.{ext}",
       "method": "get",
       "parameter": [
         "id"
@@ -48,7 +48,28 @@
         "page",
         "page_size"
       ]
-    }
+    },
+	"rateThisApp": {
+      "enabled": "YES",
+      "debug": "NO",
+      "daysUntilPrompt": "1",
+      "usesUntilPrompt": "3",
+      "significantEventsUntilPrompt": "3",
+      "timeBeforeReminding": "2",
+      "customerServiceEmail": "app-foodnetworkontheroad@foodnetwork.com",
+      "customerServiceEmailSubject": "On the Road App Customer Comment",
+      "promptFeedbackText": "Tell us what you think!",
+      "promptFeedbackLove": "I love this app",
+      "promptFeedbackDontLove": "Needs some work",
+      "promptFeedbackFAQs": "Check out our FAQs",
+      "appOpensAfterFAQViewed": "2",
+      "promptReviewText": "Please take a moment to rate this app",
+      "promptReviewYesButtonText": "Rate this app now",
+      "promptReviewRemindButtonText": "Remind me later",
+      "promptReviewNoButtonText": "No thanks",
+      "rateThisAppURLiOS": "http://itunes.apple.com/us/app/food-network-on-road-official/id550486324?ls=1&mt=8",
+      "rateThisAppURLAndroid": "https://play.google.com/store/apps/details?id=com.foodnetwork.ontheroad&hl=en"
+	}
   },
   "config_parameters": {
     "app": "otr",
